@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>registration form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <center>
+        <h2> Please register here for details update on players statistics</h2>
+        <h3>User's Registration Form</h3>
+      <form ng-submit="submitCountry()">
+                <table class="table table-responsive table-bordered">
+           
+                    <tr>
+                        <td>Name</td>
+                        <td><input type="text" ng-model="countryForm.countryName" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="text" ng-model="countryForm.countryName" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="text" ng-model="countryForm.countryName" class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td><input type="text" ng-model="countryForm.population"  class="form-control"/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Submit" class="btn-primary" /></td>
+                    </tr>
+                </table>
+            </form>
+    </center>
+    </body>
+</html>
